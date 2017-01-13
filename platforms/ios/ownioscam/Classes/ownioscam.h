@@ -1,4 +1,5 @@
 // Note that Xcode gets this line wrong.  You need to change "Cordova.h" to "CDV.h" as shown below.
+// Note that Xcode gets this line wrong.  You need to change "Cordova.h" to "CDV.h" as shown below.
 #import <Cordova/CDV.h>
 
 // Import the CustomCameraViewController class
