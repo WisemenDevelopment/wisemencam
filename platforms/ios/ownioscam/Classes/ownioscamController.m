@@ -194,7 +194,7 @@
 -(void) imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
     
     // Get a reference to the captured image
-    UIImage* image = [info objectForKey:@"UIImagePickerControllerEditedImage"];
+    UIImage* image = [info objectForKey:@"UIImagePickerControllerOriginalImage"];
     
     //self.ImageView.image = image;
     
